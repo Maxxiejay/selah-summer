@@ -1,0 +1,226 @@
+{
+    "scores": [
+        {
+            "name": "Mateen",           
+            "breakdown": {
+                "book": {
+                    "completion": 25,
+                    "semantics": 22,
+                    "css": 25,
+                    "question": 20
+                },
+                "video": {
+                    "completion": 15,
+                    "semantics": 25,
+                    "css": 25,
+                    "question": 15
+                },
+                "extra-effort": 20
+            }
+        },
+        {
+            "name": "Alatishe",           
+            "breakdown": {
+                "book": {
+                    "completion": 25,
+                    "semantics": 20,
+                    "css": 18,
+                    "question": 12
+                },
+                "video": {
+                    "completion": 20,
+                    "semantics": 20,
+                    "css": 20,
+                    "question": 15
+                },
+                "extra-effort": 15
+            }
+        },
+        {
+            "name": "Demilade Ayodeji",           
+            "breakdown": {
+                "book": {
+                    "completion": 0,
+                    "semantics": 0,
+                    "css": 0,
+                    "question": 0
+                },
+                "video": {
+                    "completion": 15,
+                    "semantics": 22,
+                    "css": 25,
+                    "question": 20 
+                },
+                "extra-effort": 50
+            }
+        },
+        {
+            "name": "Israel",           
+            "breakdown": {
+                "book": {
+                    "completion": 10,
+                    "semantics": 20,
+                    "css": 18,
+                    "question": 10
+                },
+                "video": {
+                    "completion": 5,
+                    "semantics": 15,
+                    "css": 15,
+                    "question": 0
+                },
+                "extra-effort": 10
+            }
+        },
+        {
+            "name": "Feranmi",           
+            "breakdown": {
+                "ecommerce": {
+                    "completion": 25,
+                    "semantics": 25,
+                    "css": 25,
+                    "question": 20
+                },
+                "extra-effort": 0
+            }
+        },
+        {
+            "name": "Samad",           
+            "breakdown": {
+                "ecommerce": {
+                    "completion": 20,
+                    "semantics": 15,
+                    "css": 20,
+                    "question": 20
+                },
+                "extra-effort": 10
+            }
+        },
+        {
+            "name": "Darasimi",           
+            "breakdown": {
+                "video": {
+                    "completion": 15,
+                    "semantics": 25,
+                    "css": 25,
+                    "question": 20
+                },
+                "ecommerce": {
+                    "completion": 5,
+                    "semantics": 15,
+                    "css": 10,
+                    "question": 10
+                },
+                "extra-effort": 10
+            }
+        },
+        {
+            "name": "Opeyemi",           
+            "breakdown": {
+                "ecommerce": {
+                    "completion": 20,
+                    "semantics": 25,
+                    "css": 25,
+                    "question": 0
+                },
+                "extra-effort": 0
+            }
+        },
+        {
+            "name": "Oasis",           
+            "breakdown": {
+                "video": {
+                    "completion": 10,
+                    "semantics": 15,
+                    "css": 20,
+                    "question": 15
+                },
+                "ecommerce": {
+                    "completion": 15,
+                    "semantics": 18,
+                    "css": 15,
+                    "question": 15
+                },
+                "extra-effort": 10
+            }
+        },
+        {
+            "name": "Vincent",           
+            "breakdown": {
+                "ecommerce": {
+                    "completion": 15,
+                    "semantics": 10,
+                    "css": 12,
+                    "question": 10
+                },
+                "video": {
+                    "completion": 15,
+                    "semantics": 15,
+                    "css": 10,
+                    "question": 10
+                },
+                "extra-effort": 0
+            }
+        },
+        {
+            "name": "Victor",           
+            "breakdown": {
+                "ecommerce": {
+                    "completion": 10,
+                    "semantics": 15,
+                    "css": 15,
+                    "question": 10
+                },
+                "video": {
+                    "completion": 15,
+                    "semantics": 15,
+                    "css": 10,
+                    "question": 10
+                },
+                "extra-effort": 0
+            }
+        },
+        {
+            "name": "Demilade Adelu",           
+            "breakdown": {
+                "ecommerce": {
+                    "completion": 0,
+                    "semantics": 0,
+                    "css": 0,
+                    "question": 0
+                },
+                "extra-effort": 0
+            }
+        },
+        {
+            "name": "Iyanu",           
+            "breakdown": {
+                "ecommerce": {
+                    "completion": 25,
+                    "semantics": 25,
+                    "css": 20,
+                    "question": 10
+                },
+                "extra-effort": 12
+            }
+        },
+         {
+            "name": "Kamal & Muizz",           
+            "breakdown": {
+                "book": {
+                    "completion": 0,
+                    "semantics": 0,
+                    "css": 0,
+                    "question": 0
+                },
+                "video": {
+                    "completion": 8,
+                    "semantics": 10,
+                    "css": 0,
+                    "question": 5
+                },
+                "extra-effort": 10
+            }
+        }
+    ]
+}

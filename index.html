@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Leaderboard</h1>
+    <table id="leaderboard">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Total Score</th>
+          <th>Breakdown</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Leaderboard rows will be inserted here -->
+      </tbody>
+    </table>
+  </div>
+  <div id="breakdown-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Score Breakdown</h2>
+      <pre id="breakdown-details"></pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
