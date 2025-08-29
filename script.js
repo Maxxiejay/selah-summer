@@ -47,7 +47,7 @@ fetch('scores.json')
       if (e.target.classList.contains('breakdown-btn')) {
         const idx = e.target.getAttribute('data-idx');
         const breakdown = scores[idx].breakdown;
-        details.textContent = formatBreakdown(breakdown);
+  details.innerHTML = formatBreakdown(breakdown);
         modal.style.display = 'block';
       }
     });
@@ -60,18 +60,21 @@ fetch('scores.json')
       }
     };
     function formatBreakdown(breakdown) {
-      function formatObj(obj, indent = '') {
-        let out = '';
-        for (const key in obj) {
-          if (typeof obj[key] === 'object' && obj[key] !== null) {
-            out += `${indent}${key}:\n`;
-            out += formatObj(obj[key], indent + '  ');
-          } else {
-            out += `${indent}${key}: ${obj[key]}\n`;
+      let html = '';
+      for (const key in breakdown) {
+        if (typeof breakdown[key] === 'object' && breakdown[key] !== null) {
+          html += `<h3 style='margin-top:1em;'>${key.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</h3>`;
+          html += `<table style='width:100%;margin-bottom:1em;border-collapse:collapse;'>`;
+          html += '<tbody>';
+          for (const sub in breakdown[key]) {
+            html += `<tr><td style='padding:4px 8px;border-bottom:1px solid #eee;'>${sub.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</td><td style='padding:4px 8px;border-bottom:1px solid #eee;'>${breakdown[key][sub]}</td></tr>`;
           }
+          html += '</tbody></table>';
+        } else {
+          html += `<h3 style='margin-top:1em;'>${key.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</h3>`;
+          html += `<div style='margin-bottom:1em;'>${breakdown[key]}</div>`;
         }
-        return out;
       }
-      return formatObj(breakdown);
+      return html;
     }
   });
