@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexShop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">FlexShop</h1>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#">Products</a>
+            <a href="y.html">Cart</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="o.jpg" alt="Wireless Headphones">
+                <div class="product-info">
+                    <h3>Wireless Headphones</h3>
+                    <p class="price">$49.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="l.jpg" alt="Smart Watch">
+                <div class="product-info">
+                    <h3>Smart Watch</h3>
+                    <p class="price">$89.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="i.jpg" alt="Bluetooth speaker">
+             <div class="product-info">
+                 <h3>Bluetooth speaker</h3>
+                 <p class="price">$29.99</p>
+                 <button class="add-to-cart-btn">Add to cart</button>
+             </div>
+            </div>
+            <div class="product-card">
+             <img src="p.jpg" alt="Fitness tracker">
+             <div class="product-info">
+                 <h3>Bluetooth speaker</h3>
+                 <p class="price">$39.99</p>
+                <button class="add-to-cart-btn">Add to cart</button>
+             </div>
+            </div
+        </div>
+    </main>
+</body>
+</html>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #ff5722; /* A shade of orange */
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center; /* Centers cards horizontally */
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.add-to-cart-btn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #e64a19;
+}
+.nav-link{
+    background-color: #e64a19;
+    color: white;
+    justify-content: center;
+}
+</style>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - FlexShop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">FlexShop</h1>
+        <nav class="nav-links">
+            <a href="d.html">Home</a>
+            <a href="index.html">Products</a>
+            <a href="y.html">Cart</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="o.jpg" alt="Wireless Headphones">
+                <div class="item-details">
+                    <h3>Wireless Headphones</h3>
+                    <p>Quantity: 1</p>
+                    <p>Price: $49.99</p>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="l.jpg" alt="Smart Watch">
+                <div class="item-details">
+                    <h3>Smart Watch</h3>
+                    <p>Quantity: 2</p>
+                    <p>Price: $179.98</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <p class="total-price">Total: $229.97</p>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </main>
+</body>
+</html>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Reusing the navbar styles from the previous example */
+.navbar {
+    background-color: #ff5722;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cart-item img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.item-details h3, .item-details p {
+    margin: 5px 0;
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.total-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.checkout-btn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.checkout-btn:hover {
+    background-color: #e64a19;
+}
+</style>

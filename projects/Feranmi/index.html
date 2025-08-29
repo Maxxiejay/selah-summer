@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexShop</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="logo">FlexShop</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="d.html">Products</a></li>
+                <li><a href="y.html">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <h2>Welcome to FlexShop</h2>
+            <p>Your one-stop shop for modern products. Built with Flexbox!</p>
+            <button class="shop-now-btn">Shop Now</button>
+        </section>
+<section class="features-section">
+    <div class="card">
+        <h3>Fast Delivery</h3>
+        <p>Get your products delivered quickly and safely.</p>
+    </div>
+    <div class="card">
+        <h3>Quality Products</h3>
+        <p>We offer only the best items for our customers.</p>
+    </div>
+    <div class="card">
+        <h3>Secure Payment</h3>
+        <p>Shop with confidence using our secure checkout.</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2025 FlexShop. All rights reserved.</p>
+</footer>
+</main>
+</body>
+</html>
+<style>
+/* General styling and color palette */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f7f0e8; /* The light background color */
+    color: #333;
+}
+
+/* Header and navigation */
+.header {
+    background-color: #ff5722; /* The orange header color */
+    padding: 2rem 1rem;
+    color: white;
+}
+
+.navbar {
+    display: flex; /* Flexbox for navigation */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero section with "Welcome to FlexShop" */
+.hero-section {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.shop-now-btn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* The card layout, which likely uses Flexbox */
+.features-section {
+    display: flex;
+    flex-direction: column; /* Stacks the cards vertically */
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+}
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 500px;
+    text-align: center;
+}
+.logo{
+font-size: 2rem;
+margin: 0;
+}
+</style>
+<link rel="d.html" href="products">

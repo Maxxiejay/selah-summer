@@ -12,6 +12,10 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   padding: 32px;
 }
+
+@media screen {
+  
+}
 h1 {
   text-align: center;
   color: #2d3a4b;

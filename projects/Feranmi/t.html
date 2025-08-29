@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Form</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: bisque  ;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px; /* Increased width to accommodate two columns */
+            margin: auto;
+            display: flex; /* This is the key to creating the two-column layout */
+            gap: 20px; /* Adds space between the columns */
+        }
+
+        .left-column {
+            flex: 2; /* Gives this column more space */
+        }
+
+        .right-column {
+            flex: 1; /* Gives this column less space */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* The textarea needs special styling to fill its container */
+        textarea {
+            width: 100%;
+            height: 100%; /* Makes the textarea fill the height of the right-column */
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* Adjust the button style to not be full width */
+        button {
+            width: auto;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="/submit-form" method="post">
+        <div class="form-container">
+            <div class="left-column">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="town">Town you were born in</label>
+                <input type="text" id="town" name="town">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email">
+
+                <button type="submit">Submit</button>
+            </div>
+            
+            <div class="right-column">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
