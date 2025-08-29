@@ -48,6 +48,19 @@ tbody tr:hover {
 .breakdown-btn:hover {
   background: #1e40af;
 }
+.project-btn {
+  background: #1fcc6d;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.95em;
+  transition: background 0.2s;
+}
+.project-btn:hover {
+  background: #1eaf5f;
+}
 .modal {
   display: none;
   position: fixed;

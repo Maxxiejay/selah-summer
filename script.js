@@ -35,6 +35,7 @@ fetch('scores.json')
         <td>${entry.name}</td>
         <td>${entry.total}</td>
         <td><button class="breakdown-btn" data-idx="${idx}">View</button></td>
+        <td><button class="project-btn" onclick="window.open('https://selah-summer.netlify.app/projects/${entry.name}', '_blank')">Visit</button></td>
       `;
       tbody.appendChild(tr);
     });
