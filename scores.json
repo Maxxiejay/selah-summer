@@ -221,18 +221,6 @@
                 },
                 "extra-effort": 10
             }
-        },
-        {
-            "name": "Tosin",
-            "breakdown": {
-                "ecommerce": {
-                    "completion": 25,
-                    "semantics": 25,
-                    "css": 25,
-                    "question": 0
-                },
-                "extra-effort": 20
-            }
         }
     ]
 }
